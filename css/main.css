@@ -6,6 +6,8 @@ body {
   background-color: black;
   /*background-color: gray;*/
   min-width: 900px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 header {
