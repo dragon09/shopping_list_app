@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: black;
+  background-color:  #333333;;
   /*background-color: gray;*/
   min-width: 900px;
   padding-left: 1em;
@@ -30,21 +30,22 @@ header {
 .input {
   text-align: center;
   padding: 0 0 25px 0;
-  border-top: 1px solid #95a5a6;
-  border-bottom: 1px solid #95a5a6;
+  /*outline: green 2px solid;*/
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
   background-color: #666666;
 }
 
 .input-item {
-  color: white;
+  color: black;
 }
-.customer_input {
+/*.customer_input {
   width: 400px;
   background-color: #333333;
   border-radius: 5px;
   border: 3px solid green;
   padding: 10px 10px;
-}
+}*/
 
 .btn {
   background-color: green;
@@ -55,6 +56,102 @@ header {
 }
 
 .list {
-  color: white;
+  color: #fff;
   text-align: center;
 }
+
+.add_item {
+  text-align: center;
+}
+
+.button {
+  color: green;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/*.remove {
+  color: green;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+}
+}
+
+.shopping_item {
+  width: 400px;
+  background-color: #333333;
+  border-radius: 5px;
+  border: 3px solid white;
+  padding: 10px 10px;
+}*/
+
+h2 {
+    font-family:arial;
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  color: green;
+}
+
+form {
+    display: inline-block;
+}
+
+.item {
+  color: white;
+}
+
+#button {
+    display: inline-block;
+    height:20px;
+    width:70px;
+    /*background-color:#cc0000;*/
+    background-color: green;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;*/
+    cursor: pointer;
+}
+
+.quantity {
+    display: inline-block;
+    height:20px;
+    width:70px;
+    font-family:arial;
+    font-weight:bold;
+    color:#000000;
+    text-align:center;
+    margin-top:2px;
+    color: black;
+}
+
+/*.main {
+  margin-top: 2em;
+}
+
+.list {
+    margin: auto;
+    font-family:garamond;
+    color:#000000;
+}
+
+.list ul{
+  height: 50em;
+  background-color: darkseagreen;
+  margin: auto;
+  padding-top: 1em;
+  width: 20em;
+}*/

@@ -15,12 +15,30 @@
 
     <div class="input">
       <h2 class="input-item">Enter item:</h2>
-      <input type="text" class="customer_input" id="item_input" placeholder="Enter shopping item">
-      <button type="submit" class="btn">Add</button>
-    </div>
-    <div class="list">
-      <h3>List:</h3>
+      <!-- <input type="text" class="customer_input" id="item_input" placeholder="Enter shopping item"> -->
+      <!-- <button type="submit" class="btn">Add to List</button> -->
+      <form name="checkListForm">
+         <div class="quantity">Quantity:</div>
+         <input type="text" name="quantity" maxlength="8" size="8" />
+         <div class="quantity">Product:</div>
+         <input type="text" name="checkListItem" />
+         <!-- <input type="text"class="customer_input" id="item_input" placeholder="Enter shopping item" -->
+     </form>
+     <div id="button" type="submit">Add</div>
+     <br/>
+     <!-- <ul class="list"></ul> -->
     </div>
 
-  </body>
+    <section class="main">
+    <div class="list">
+      <h3>Shopping List:</h3>
+      <h5>**Click on item to Remove from list**</h5>
+      <ul class="list-items">
+        <span class="box"></span>
+    </ul>
+    </div>
+    </div>
+    </section>
+
+</body>
 </html>
