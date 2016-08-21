@@ -13,16 +13,18 @@
       <h1 class="masthead-intro text-center">Shopping List</h1>
     </header>
 
-    <div class="input">
+    <!-- <div class="input"> -->
+    <div id="input">
       <h2 class="input-item">Enter item:</h2>
-      <!-- <input type="text" class="customer_input" id="item_input" placeholder="Enter shopping item"> -->
-      <!-- <button type="submit" class="btn">Add to List</button> -->
+
       <form name="checkListForm">
-         <div class="quantity">Quantity:</div>
-         <input type="text" name="quantity" maxlength="8" size="8" />
-         <div class="quantity">Product:</div>
-         <input type="text" name="checkListItem" />
-         <!-- <input type="text"class="customer_input" id="item_input" placeholder="Enter shopping item" -->
+         <!-- <label for="quantity" class>Quantity:</label> -->
+         <!-- <input id="quantity" type="text" name="quanity" maxlength="8" size="8" /> -->
+         <label for="product" class>Product:</label>
+<!-- working checkbox -->
+         <input id="product" type="text" name="checkListItem" />
+<!-- end of working checkbox -->
+
      </form>
      <div id="button" type="submit">Add</div>
      <br/>
@@ -33,10 +35,8 @@
     <div class="list">
       <h3>Shopping List:</h3>
       <h5>**Click on item to Remove item from list**</h5>
-      <ul class="list-items">
-        <span class="box"></span>
-    </ul>
-    </div>
+
+
     </div>
     </section>
 

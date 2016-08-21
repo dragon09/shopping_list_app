@@ -27,13 +27,17 @@ header {
   border-top: 1em green;
 }
 
-.input {
+#input {
   text-align: center;
   padding: 0 0 25px 0;
   /*outline: green 2px solid;*/
   border-top: 1px solid green;
   border-bottom: 1px solid green;
   background-color: #666666;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
 }
 
 .input-item {
@@ -126,7 +130,7 @@ form {
     cursor: pointer;
 }
 
-.quantity {
+/*.quantity {
     display: inline-block;
     height:20px;
     width:70px;
@@ -136,6 +140,10 @@ form {
     text-align:center;
     margin-top:2px;
     color: black;
+}*/
+
+.completed {
+    text-decoration: line-through;
 }
 
 /*.main {
