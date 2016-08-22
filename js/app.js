@@ -3,6 +3,13 @@ $(document).ready(function () {
 
         var toAdd = $("input[name=checkListItem]").val();
         // var toAddNum = $("input[name=quanity]").val();
+//         $(document).on("keydown", function(e) {
+//           if(e.keyCode === 13) {
+//             getInput();
+//   }
+// });
+
+
         $('.list').append('<input type="checkbox" name="myCheckbox" />');
         // $(".list").append("<li class='item'>" + toAddNum + " " + toAdd + "</li>");
         $(".list").append("<li class='item'>" + toAdd + " " + "</li>");
@@ -11,8 +18,10 @@ $(document).ready(function () {
             $(this).wrap("<strike>");
         })
 
-        //   })
+        // })
 });
+
+
 //     // $("#quantity").val("");
 //     // $("#product").val("");
 //
@@ -20,5 +29,7 @@ $(document).ready(function () {
         $(this).remove();
 
     });
+
+
 
 });
