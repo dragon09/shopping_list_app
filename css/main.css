@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:  #333333;;
+  background-color: #333333;
   /*background-color: gray;*/
   min-width: 900px;
   padding-left: 1em;
@@ -36,13 +36,11 @@ header {
   background-color: #666666;
 }
 
-input[type=checkbox]:checked + label.strikethrough{
-  text-decoration: line-through;
-}
-
 .input-item {
   color: black;
 }
+
+
 /*.customer_input {
   width: 400px;
   background-color: #333333;
@@ -59,9 +57,13 @@ input[type=checkbox]:checked + label.strikethrough{
   cursor: pointer;
 }
 
-.list {
+.list-container {
   color: #fff;
   text-align: center;
+}
+
+.list {
+  list-style-type: none;
 }
 
 .add_item {
@@ -71,7 +73,7 @@ input[type=checkbox]:checked + label.strikethrough{
 .button {
   color: green;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid green;
   border-radius: 2px;
   font-size: 12px;
   cursor: pointer;
@@ -101,10 +103,12 @@ h2 {
 
 h3 {
   color: white;
+  text-align: center;*/
 }
 
 h5 {
   color: green;
+  text-align: center;*/
 }
 
 form {
