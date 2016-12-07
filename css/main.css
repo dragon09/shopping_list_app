@@ -3,7 +3,10 @@
 }
 
 body {
-  background-color: #333333;
+  background-color: #734b6d;
+  /*background-color: #564e5d;*/
+  /*background-color: #42275a;*/
+  /*background-color: #333333;*/
   /*background-color: gray;*/
   min-width: 900px;
   padding-left: 1em;
@@ -15,7 +18,8 @@ header {
 }
 
 .masthead {
-  outline: green 3px solid;
+  /*outline: green 3px solid;*/
+  outline: #abbaab 3px solid;
 }
 
 .masthead-intro {
@@ -31,9 +35,11 @@ header {
   text-align: center;
   padding: 0 0 25px 0;
   /*outline: green 2px solid;*/
-  border-top: 1px solid green;
-  border-bottom: 1px solid green;
-  background-color: #666666;
+  border-top: 1px solid #abbaab;
+  border-bottom: 1px solid #abbaab;
+  /*background-color: #666666;*/
+  /*background-color: #734b6d;*/
+  background-color: #564e5d;
 }
 
 .input-item {
@@ -107,7 +113,7 @@ h3 {
 }
 
 h5 {
-  color: green;
+  color: white;
   text-align: center;*/
 }
 
@@ -124,7 +130,7 @@ form {
     height:20px;
     width:70px;
     /*background-color:#cc0000;*/
-    background-color: green;
+    background-color: #360033;
     font-family:arial;
     font-weight:bold;
     color:#ffffff;
